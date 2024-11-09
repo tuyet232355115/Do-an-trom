@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="grid">
+            <div class="header__top-bar">
+                <div class="header__top-bar--email">
+                    <i class="fa-regular fa-envelope-open header__top-bar--email-logo"></i>
+                    <div class="header__top-bar--email-group">
+                        <span class="header__top-bar--email-label">Email us at :</span> 
+                        <span class="header__top-bar--email-content">example@mail.com</span>
+                    </div>
+                </div>
+                <div class="header__top-bar--socials">
+                    <div class="header__top-bar--social header__top-bar--social-fb">
+                        <i class="fa-brands fa-facebook-f header__top-bar--social-icon"></i>
+                    </div>
+                    <div class="header__top-bar--social header__top-bar--social-dribbble">
+                        <i class="fa-brands fa-dribbble header__top-bar--social-icon"></i>
+                    </div>
+                    <div class="header__top-bar--social header__top-bar--social-linkedin">
+                        <i class="fa-brands fa-linkedin-in header__top-bar--social-icon"></i>
+                    </div>
+                    <div class="header__top-bar--social header__top-bar--social-instagram">
+                        <i class="fa-brands fa-instagram header__top-bar--social-icon"></i>
+                    </div>
+                    <div class="header__top-bar--social header__top-bar--social-behance">
+                        <i class="fa-brands fa-behance header__top-bar--social-icon"></i>
+                    </div>
+                    <div class="header__top-bar--social header__top-bar--social-separate"></div>
+                    <div class="header__top-bar--social header__top-bar--social-phone">
+                        <i class="fa-solid fa-phone header__top-bar--social-icon"></i>
+                        <span class="header__top-bar--social header__top-bar--social-phone-content">123-4567 890</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__top-bar--saperate"></div>
+        <div class="grid">
+            <div class="header__main">
+                <div class="header__main-top">
+                    <div class="header__logo">
+                        <img src="./assets/img/HouseLine.svg" alt="HouseLine-logo" class="header__logo-icon">
+                        <div class="header__logo-content">
+                            <span class="header__logo-name">REIS</span>
+                            <span class="header__logo-description">Real State</span>
+                        </div>
+                    </div>
+                    <nav class="header__nav">
+                        <a href="#" class="header__nav-item header__nav-item--active">HOME</a>
+                        <a href="#" class="header__nav-item">ABOUT US</a>
+                        <a href="#" class="header__nav-item">OUR AGENTS</a>
+                        <a href="./properties/properties.html" class="header__nav-item">PROPERTIES</a>
+                        <a href="#" class="header__nav-item">GALLERY</a>
+                        <a href="#" class="header__nav-item">BLOG</a>
+                        <a href="#" class="header__nav-item">CONTACT US</a>
+                        <a href="#" class="header__nav-item">SEARCH</a>
+                        <button class="header__nav-item header__nav--button btn">Add Listing</button>
+                    </nav>
+                </div>
+                <div class="header__titles">
+                    <div class="header__title">Find Your Dream Home</div>
+                    <div class="header__subtitle">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</div>
+                </div>
+                <div class="header__search-group">
+                    <div class="header__search">
+                        <div class="header__search-tabs">
+                            <div class="header__search-tab header__search-tab--active btn">Rent</div>
+                            <div class="header__search-tab btn">Sale</div>
+                        </div>
+                        <div class="header__search-input-group">
+                            <div class="header__search-input">
+                                <label for="city" class="header__search-input--label">Locations</label>
+                                <div class="header__search-input--selections">
+                                    <span class="header__search-input--selection">Select your city</span>
+                                    <i class="fa-solid fa-chevron-down header__search-input--icon"></i>
+                                </div>
+                            </div>
+                            <div class="header__search-input">
+                                <label for="city" class="header__search-input--label">Property Type</label>
+                                <div class="header__search-input--selections">
+                                    <span class="header__search-input--selection">Select property type</span>
+                                    <i class="fa-solid fa-chevron-down header__search-input--icon"></i>
+                                </div>
+                            </div>
+                            <div class="header__search-input">
+                                <label for="city" class="header__search-input--label">Rent Range</label>
+                                <div class="header__search-input--selections">
+                                    <span class="header__search-input--selection">Select rent range</span>
+                                    <i class="fa-solid fa-chevron-down header__search-input--icon"></i>
+                                </div>
+                            </div>
+                            <button class="header__search-btn btn">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="area-properties">
+            <h2 class="area-properties__title">Propertice by Area</h2>
+            <p class="area-properties__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
+            <div class="area-properties__list">
+                <div class="area-properties__item area-properties__item--washington">
+                    <p class="area-properties__address">Washington</p>
+                    <p class="area-properties__count">25 listings</p>
+                    <i class="fa-solid fa-location-dot area-properties__address-icon"></i>
+                    <button class="view-detail btn btn--view-detail">View Detail</button>
+                </div>
+                <div class="area-properties__item area-properties__item--franklin">
+                    <p class="area-properties__address">Franklin</p>
+                    <p class="area-properties__count">25 listings</p>
+                    <i class="fa-solid fa-location-dot area-properties__address-icon"></i>
+                    <button class="view-detail btn btn--view-detail">View Detail</button>
+                </div>
+                <div class="area-properties__item area-properties__item--clinton">
+                    <p class="area-properties__address">Clinton</p>
+                    <p class="area-properties__count">25 listings</p>
+                    <i class="fa-solid fa-location-dot area-properties__address-icon"></i>
+                    <button class="view-detail btn btn--view-detail">View Detail</button>
+                </div>
+                <div class="area-properties__item area-properties__item--arlington">
+                    <p class="area-properties__address">Arlington</p>
+                    <p class="area-properties__count">25 listings</p>
+                    <i class="fa-solid fa-location-dot area-properties__address-icon"></i>
+                    <button class="view-detail btn btn--view-detail">View Detail</button>
+                </div>
+                <div class="area-properties__item area-properties__item--centerville">
+                    <p class="area-properties__address">Centerville</p>
+                    <p class="area-properties__count">25 listings</p>
+                    <i class="fa-solid fa-location-dot area-properties__address-icon"></i>
+                    <button class="view-detail btn btn--view-detail">View Detail</button>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="services__title">Propertice Services</div>
+            <div class="services__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</div>
+            <div class="services__list">
+                <div class="services__item services__item--sell services__item--active">
+                    <div class="services__item-logo">
+                        <img src="./assets/img/house-logo.svg" alt="house-logo">
+                    </div>
+                    <div class="services__item-title">Sell your home</div>
+                    <div class="services__item-description">We do a free evaluation to be sure you want to start selling.</div>
+                    <button class="services__read-more">Read more</button>
+                </div>
+                <div class="services__item services__item--rent">
+                    <div class="services__item-logo">
+                        <img src="./assets/img/house-logo.svg" alt="house-logo">
+                        <i class="fa-solid fa-key services__item-logo-in"></i>
+                    </div>
+                    <div class="services__item-title">Rent your home</div>
+                    <div class="services__item-description">We do a free evaluation to be sure you want to start selling.</div>
+                    <button class="services__read-more">Read more</button>
+                </div>
+                <div class="services__item services__item--buy">
+                    <div class="services__item-logo">
+                        <img src="./assets/img/house-logo.svg" alt="house-logo">
+                        <i class="fa-solid fa-briefcase services__item-logo-in"></i>
+                    </div>
+                    <div class="services__item-title">Buy your home</div>
+                    <div class="services__item-description">We do a free evaluation to be sure you want to start selling.</div>
+                    <button class="services__read-more">Read more</button>
+                </div>
+                <div class="services__item services__item--marketing">
+                    <div class="services__item-logo">
+                        <img src="./assets/img/house-logo.svg" alt="house-logo">
+                        <i class="fa-solid fa-magnifying-glass services__item-logo-in"></i>
+                    </div>
+                    <div class="services__item-title">Marketing your home</div>
+                    <div class="services__item-description">We do a free evaluation to be sure you want to start selling.</div>
+                    <button class="services__read-more">Read more</button>
+                </div>
+            </div>
+        </section>
+        <section class="letest-rent">
+            <div class="letest-rent__title">Letest Properties of Rent</div>
+            <div class="letest-rent__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</div>
+            <div class="letest-rent__list">
+                <div class="letest-rent__items">
+                    <div class="letest-rent__item--img">
+                        <button class="btn--hot-offer btn btn--s">Hot offer</button>
+                        <button class="btn--sale btn btn--s">Sale</button>
+                    </div>
+                    <div class="letest-rent__item--content">
+                        <div class="letest-rent__address">92 ALLIUM PLACE, ORLANDO FL 32827</div>
+                        <div class="latest-rent__price">$ 590,693</div>
+                        <div class="latest-rent__descriptions">
+                                <i class="fa-solid fa-car car-icon"></i>
+                                <p class="car-numbers">4</p>
+                                <i class="fa-solid fa-bath bathtub-icon"></i>
+                                <p class="bathtub-numbers">4</p>
+                                <i class="fa-solid fa-maximize arrow-out-icon"></i>
+                                <p class="arrow-out-numbers">2,096.00 ft</p>
+                        </div>
+                        <div class="letest-rent__item--saperate"></div>
+                        <div class="letest-rent__item--author">
+                            <div class="author-info">
+                                <img src="./assets/img/avatar1.png" alt="" class="author-avatar">
+                                <p class="author-name">Jenny Wilson</p>
+                            </div>
+                            <div class="author-affection">
+                                <i class="fa-solid fa-share-nodes author-affection-icon"></i>
+                                <i class="fa-solid fa-heart author-affection-icon"></i>
+                                <i class="fa-solid fa-plus author-affection-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="letest-rent__items">
+                    <div class="letest-rent__item--img">
+                    </div>
+                    <div class="letest-rent__item--content">
+                        <div class="letest-rent__address">92 ALLIUM PLACE, ORLANDO FL 32827</div>
+                        <div class="latest-rent__price">$ 590,693</div>
+                        <div class="latest-rent__descriptions">
+                                <i class="fa-solid fa-car car-icon"></i>
+                                <p class="car-numbers">4</p>
+                                <i class="fa-solid fa-bath bathtub-icon"></i>
+                                <p class="bathtub-numbers">4</p>
+                                <i class="fa-solid fa-maximize arrow-out-icon"></i>
+                                <p class="arrow-out-numbers">2,096.00 ft</p>
+                        </div>
+                        <div class="letest-rent__item--saperate"></div>
+                        <div class="letest-rent__item--author">
+                            <div class="author-info">
+                                <img src="./assets/img/avatar2.png" alt="" class="author-avatar">
+                                <p class="author-name">Jenny Wilson</p>
+                            </div>
+                            <div class="author-affection">
+                                <i class="fa-solid fa-share-nodes author-affection-icon"></i>
+                                <i class="fa-solid fa-heart author-affection-icon"></i>
+                                <i class="fa-solid fa-plus author-affection-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="letest-rent__items">
+                    <div class="letest-rent__item--img">
+                    </div>
+                    <div class="letest-rent__item--content">
+                        <div class="letest-rent__address">92 ALLIUM PLACE, ORLANDO FL 32827</div>
+                        <div class="latest-rent__price">$ 590,693</div>
+                        <div class="latest-rent__descriptions">
+                                <i class="fa-solid fa-car car-icon"></i>
+                                <p class="car-numbers">4</p>
+                                <i class="fa-solid fa-bath bathtub-icon"></i>
+                                <p class="bathtub-numbers">4</p>
+                                <i class="fa-solid fa-maximize arrow-out-icon"></i>
+                                <p class="arrow-out-numbers">2,096.00 ft</p>
+                        </div>
+                        <div class="letest-rent__item--saperate"></div>
+                        <div class="letest-rent__item--author">
+                            <div class="author-info">
+                                <img src="./assets/img/avatar3.png" alt="" class="author-avatar">
+                                <p class="author-name">Jenny Wilson</p>
+                            </div>
+                            <div class="author-affection">
+                                <i class="fa-solid fa-share-nodes author-affection-icon"></i>
+                                <i class="fa-solid fa-heart author-affection-icon"></i>
+                                <i class="fa-solid fa-plus author-affection-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="letest-rent__items">
+                    <div class="letest-rent__item--img">
+                    </div>
+                    <div class="letest-rent__item--content">
+                        <div class="letest-rent__address">92 ALLIUM PLACE, ORLANDO FL 32827</div>
+                        <div class="latest-rent__price">$ 590,693</div>
+                        <div class="latest-rent__descriptions">
+                                <i class="fa-solid fa-car car-icon"></i>
+                                <p class="car-numbers">4</p>
+                                <i class="fa-solid fa-bath bathtub-icon"></i>
+                                <p class="bathtub-numbers">4</p>
+                                <i class="fa-solid fa-maximize arrow-out-icon"></i>
+                                <p class="arrow-out-numbers">2,096.00 ft</p>
+                        </div>
+                        <div class="letest-rent__item--saperate"></div>
+                        <div class="letest-rent__item--author">
+                            <div class="author-info">
+                                <img src="./assets/img/avatar1.png" alt="" class="author-avatar">
+                                <p class="author-name">Jenny Wilson</p>
+                            </div>
+                            <div class="author-affection">
+                                <i class="fa-solid fa-share-nodes author-affection-icon"></i>
+                                <i class="fa-solid fa-heart author-affection-icon"></i>
+                                <i class="fa-solid fa-plus author-affection-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="letest-rent__items">
+                    <div class="letest-rent__item--img">
+                    </div>
+                    <div class="letest-rent__item--content">
+                        <div class="letest-rent__address">92 ALLIUM PLACE, ORLANDO FL 32827</div>
+                        <div class="latest-rent__price">$ 590,693</div>
+                        <div class="latest-rent__descriptions">
+                                <i class="fa-solid fa-car car-icon"></i>
+                                <p class="car-numbers">4</p>
+                                <i class="fa-solid fa-bath bathtub-icon"></i>
+                                <p class="bathtub-numbers">4</p>
+                                <i class="fa-solid fa-maximize arrow-out-icon"></i>
+                                <p class="arrow-out-numbers">2,096.00 ft</p>
+                        </div>
+                        <div class="letest-rent__item--saperate"></div>
+                        <div class="letest-rent__item--author">
+                            <div class="author-info">
+                                <img src="./assets/img/avatar2.png" alt="" class="author-avatar">
+                                <p class="author-name">Jenny Wilson</p>
+                            </div>
+                            <div class="author-affection">
+                                <i class="fa-solid fa-share-nodes author-affection-icon"></i>
+                                <i class="fa-solid fa-heart author-affection-icon"></i>
+                                <i class="fa-solid fa-plus author-affection-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="letest-rent__items">
+                    <div class="letest-rent__item--img">
+                    </div>
+                    <div class="letest-rent__item--content">
+                        <div class="letest-rent__address">92 ALLIUM PLACE, ORLANDO FL 32827</div>
+                        <div class="latest-rent__price">$ 590,693</div>
+                        <div class="latest-rent__descriptions">
+                                <i class="fa-solid fa-car car-icon"></i>
+                                <p class="car-numbers">4</p>
+                                <i class="fa-solid fa-bath bathtub-icon"></i>
+                                <p class="bathtub-numbers">4</p>
+                                <i class="fa-solid fa-maximize arrow-out-icon"></i>
+                                <p class="arrow-out-numbers">2,096.00 ft</p>
+                        </div>
+                        <div class="letest-rent__item--saperate"></div>
+                        <div class="letest-rent__item--author">
+                            <div class="author-info">
+                                <img src="./assets/img/avatar3.png" alt="" class="author-avatar">
+                                <p class="author-name">Jenny Wilson</p>
+                            </div>
+                            <div class="author-affection">
+                                <i class="fa-solid fa-share-nodes author-affection-icon"></i>
+                                <i class="fa-solid fa-heart author-affection-icon"></i>
+                                <i class="fa-solid fa-plus author-affection-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-load-more-listing">Load more listing</button>
+        </section>
+        <section class="properties-slider">
+            <div class="properties-slider__title">Letest Properties of Rent</div>
+            <div class="properties-slider__description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</div>
+            <div class="properties-slider__list-wrapper">
+                <div class="properties-slider__list">
+                    <div class="properties-slider__item">
+                        <button class="btn btn--s btn--hot-offer">Hot offer</button>
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <button class=" btn btn--s btn--hot-offer">Hot offer</button>
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <button class=" btn btn--s btn--hot-offer">Hot offer</button>
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <button class=" btn btn--s btn--hot-offer">Hot offer</button>
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                    <div class="properties-slider__item">
+                        <div class="properties-slider__item--descriptions">
+                            <i class="fa-solid fa-location-dot properties-slider__item--address-icon"></i>
+                            <p class="properties-slider__item--address-name">Washington</p>
+                            <i class="fa-solid fa-maximize properties-slider__item--arrow-out-icon"></i>
+                            <p class="properties-slider__item--arrow-out-count">12000</p>
+                        </div>
+                        <button class="view-detail btn btn--view-detail">View Detail</button>
+                    </div>
+                </div>
+            </div>
+            <div class="properties-slider__nav">
+                <button id="prev-btn" class="properties-slider__nav-btn properties-slider__nav-btn--disable">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button id="next-btn" class="properties-slider__nav-btn">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact__title">Find Best Place For Living</div>
+            <div class="contact__description">Spend vacations in best hotels and resorts find the great place of your choice using different searching options.</div>
+            <button class="btn btn--border-white btn-contact-us">Contact Us</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__group">
+            <div class="footer__trademark">
+                <img src="./assets/img/house-logo.svg" alt="REIS Real Estate" class="footer__logo-img">
+                <div class="footer__logo-text">
+                    <span class="footer__logo-text--title">REIS</span>
+                    <span class="footer__logo-text--description">Real Estate</span>
+                </div>
+            </div>
+            <div class="footer__contact">CONTACT US</div>
+            <div class="footer__infor">
+                <p class="footer__contact-phone">Call : +123 400 123</p>
+                <p class="footer__contact-address">Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                <p class="footer__contact-email">Email: example@mail.com</p>
+                <div class="footer__social-links">
+                    <a href="#" class="footer__social-link footer__social-link--facebook">
+                        <i class="fa-brands fa-facebook-f footer__social-link--icon"></i>
+                    </a>
+                    <a href="#" class="footer__social-link footer__social-link--dribbble">
+                        <i class="fa-brands fa-dribbble footer__social-link--icon"></i>
+                    </a>
+                    <a href="#" class="footer__social-link footer__social-link--linkedin">
+                        <i class="fa-brands fa-linkedin-in footer__social-link--icon"></i>
+                    </a>
+                    <a href="#" class="footer__social-link footer__social-link--instagram">
+                        <i class="fa-brands fa-instagram footer__social-link--icon"></i>
+                    </a>
+                    <a href="#" class="footer__social-link footer__social-link--behance">
+                        <i class="fa-brands fa-behance footer__social-link--icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__links">
+            <div class="footer__column footer__column--features">
+                <h4 class="footer__column-title">Features</h4>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">Home</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Become a Host</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Pricing</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Blog</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer__column footer__column--company">
+                <h4 class="footer__column-title">Company</h4>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">About Us</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Press</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Contact</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Careers</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Blog</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer__column footer__column--policies">
+                <h4 class="footer__column-title">Team and Policies</h4>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">Terms of Service</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">Security</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/script/main.js"></script>
+</body>
+</html>
